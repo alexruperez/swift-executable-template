@@ -20,7 +20,7 @@ final class EXECUTABLE-NAMETests: XCTestCase {
         let data = pipe.fileHandleForReading.readDataToEndOfFile()
         let output = String(data: data, encoding: .utf8)
 
-        XCTAssertEqual(output, "Hello, world!\n")
+        XCTAssertEqual(output, "Hello, EXECUTABLE-NAME!\n")
     }
 
     var productsDirectory: URL {
