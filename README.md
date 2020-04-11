@@ -25,8 +25,8 @@ Simply run:
 $ EXECUTABLE-NAME [options]
 ```
 
-* `-h/--help`: Prints the `EXECUTABLE-NAME` help.
-* `-v/--version`: Prints the `EXECUTABLE-NAME` version.
+* `-h, --help`: Show `EXECUTABLE-NAME` help information.
+* `-v, --version`: Show `EXECUTABLE-NAME` version.
 
 ## 🛠 Compatibility
 
