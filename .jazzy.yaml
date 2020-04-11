@@ -1,0 +1,9 @@
+author: AUTHOR-NAME
+author_url: https://twitter.com/AUTHOR-HANDLE
+clean: true
+copyright: Copyright (c) 2020 AUTHOR-NAME
+github_file_prefix: https://github.com/AUTHOR-HANDLE/EXECUTABLE-NAME/blob/master
+github_url: https://github.com/AUTHOR-HANDLE/EXECUTABLE-NAME
+root_url: https://AUTHOR-HANDLE.github.io/EXECUTABLE-NAME
+swift_build_tool: spm
+theme: fullwidth
