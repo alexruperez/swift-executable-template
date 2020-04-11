@@ -24,6 +24,8 @@ do
   fi
 done
 
-swift package generate-xcodeproj
+swift test
+.build/debug/$executable_name
+open Package.swift
 
 rm -rf ./generate.sh

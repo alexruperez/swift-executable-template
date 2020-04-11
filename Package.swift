@@ -5,8 +5,8 @@ import PackageDescription
 let package = Package(
     name: "EXECUTABLE-NAME",
     dependencies: [
-      .package(url: "https://github.com/apple/swift-argument-parser",
-               .upToNextMinor(from: "0.0.4"))
+        .package(url: "https://github.com/apple/swift-argument-parser",
+                 .upToNextMinor(from: "0.0.4"))
     ],
     targets: [
         .target(

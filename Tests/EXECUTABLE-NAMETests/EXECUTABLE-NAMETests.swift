@@ -1,12 +1,11 @@
-import XCTest
 import class Foundation.Bundle
+import XCTest
 
-final class EXECUTABLE_NAMETests: XCTestCase {
+final class EXECUTABLE-NAMETests: XCTestCase {
     func testExample() throws {
         guard #available(macOS 10.13, *) else {
             return
         }
-
         let fooBinary = productsDirectory.appendingPathComponent("EXECUTABLE-NAME")
 
         let process = Process()
@@ -25,17 +24,15 @@ final class EXECUTABLE_NAMETests: XCTestCase {
     }
 
     var productsDirectory: URL {
-      #if os(macOS)
+        #if os(macOS)
         for bundle in Bundle.allBundles where bundle.bundlePath.hasSuffix(".xctest") {
             return bundle.bundleURL.deletingLastPathComponent()
         }
-        fatalError("couldn't find the products directory")
-      #else
+        #endif
         return Bundle.main.bundleURL
-      #endif
     }
 
     static var allTests = [
-        ("testExample", testExample),
+        ("testExample", testExample)
     ]
 }

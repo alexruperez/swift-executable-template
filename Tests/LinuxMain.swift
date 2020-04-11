@@ -1,7 +1,6 @@
+import EXECUTABLE-NAMETests
 import XCTest
 
-import EXECUTABLE_NAMETests
-
 var tests = [XCTestCaseEntry]()
-tests += EXECUTABLE_NAMETests.allTests()
+tests += EXECUTABLE-NAMETests.allTests()
 XCTMain(tests)
