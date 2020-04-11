@@ -3,7 +3,7 @@ repo_name=$(basename -s .git $remote_url)
 repo_path=$(dirname $remote_url)
 author_handle=${repo_path##*:}
 author_handle=${author_handle##*/}
-executable_name=$(echo $repo_name | perl -pe 's/(^|-|_)(\w)/uc($2)/ge' )
+executable_name=$(echo $repo_name | perl -pe 's/(^|-|_| |%20)(\w)/uc($2)/ge' )
 author_name=$(git config user.name)
 author_email=$(git config user.email)
 
@@ -25,7 +25,7 @@ do
 done
 
 swift test
-.build/debug/$executable_name
+swift run
 open Package.swift
 
 rm -rf ./generate.sh

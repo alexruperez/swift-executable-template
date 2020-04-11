@@ -17,17 +17,16 @@
 
 ## 🐒 Usage
 
+### Command Line
 
+Simply run:
 
-## 👀 Examples
-
-> Talk is cheap. Show me the code.
-
-```swift
-
-
-
+```sh
+$ EXECUTABLE-NAME [options]
 ```
+
+* `-h/--help`: Prints the `EXECUTABLE-NAME` help.
+* `-v/--version`: Prints the `EXECUTABLE-NAME` version.
 
 ## 🛠 Compatibility
 
@@ -36,19 +35,53 @@
 
 ## ⚙️ Installation
 
-#### You can use the [Swift Package Manager](https://github.com/apple/swift-package-manager) by declaring EXECUTABLE-NAME as a dependency in your `Package.swift` file:
+Make sure Xcode 11.4+ is installed first.
+
+There're more than one way to install `EXECUTABLE-NAME`.
+
+### Using [Homebrew](https://brew.sh):
+
+```sh
+$ brew install AUTHOR-HANDLE/EXECUTABLE-NAME/EXECUTABLE-NAME
+```
+
+### Using [Mint](https://github.com/yonaskolb/mint):
+
+```sh
+$ mint install AUTHOR-HANDLE/EXECUTABLE-NAME
+```
+
+### Compiling from source:
+
+```sh
+$ git clone https://github.com/AUTHOR-HANDLE/EXECUTABLE-NAME.git
+$ cd EXECUTABLE-NAME
+$ make install
+```
+
+With that installed and in the `bin` folder, now it's ready to serve.
+
+### Using [Swift Package Manager](https://github.com/apple/swift-package-manager):
+
+**Use as CLI**
+
+```shell
+$ git clone https://github.com/AUTHOR-HANDLE/EXECUTABLE-NAME.git
+$ cd EXECUTABLE-NAME
+$ swift run
+```
+
+**Use as dependency**
+
+Add the following to your Package.swift file's dependencies:
 
 ```swift
-.package(url: "https://github.com/AUTHOR-HANDLE/EXECUTABLE-NAME", from: "0.1.0")
+.package(url: "https://github.com/AUTHOR-HANDLE/EXECUTABLE-NAME.git", from: "0.1.0")
 ```
+
+And then import wherever needed: `import EXECUTABLE-NAME`
 
 *For more information, see [the Swift Package Manager documentation](https://github.com/apple/swift-package-manager/tree/master/Documentation).*
-
-#### Or you can use [Carthage](https://github.com/Carthage/Carthage):
-
-```ogdl
-github "AUTHOR-HANDLE/EXECUTABLE-NAME"
-```
 
 ## 🍻 Etc.
 
