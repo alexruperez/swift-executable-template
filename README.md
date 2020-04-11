@@ -1,5 +1,5 @@
 # EXECUTABLE-NAME
-> A description of this package.
+> A description of this tool.
 
 [![Twitter](https://img.shields.io/badge/contact-%40AUTHOR-HANDLE-blue)](http://twitter.com/AUTHOR-HANDLE)
 [![Swift](https://img.shields.io/badge/swift-5-orange)](https://swift.org)
@@ -59,7 +59,7 @@ $ cd EXECUTABLE-NAME
 $ make install
 ```
 
-With that installed and in the `bin` folder, now it's ready to serve.
+With that installed and in the `/usr/local/bin` folder, now it's ready to serve.
 
 ### Using [Swift Package Manager](https://github.com/apple/swift-package-manager):
 
