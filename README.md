@@ -5,7 +5,6 @@
 [![Swift](https://img.shields.io/badge/swift-5-orange)](https://swift.org)
 [![License](https://img.shields.io/github/license/AUTHOR-HANDLE/EXECUTABLE-NAME)](LICENSE)
 [![Swift Package Manager](https://img.shields.io/badge/Swift%20Package%20Manager-compatible-4BC51D.svg?style=flat)](https://swift.org/package-manager)
-[![Carthage](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
 [![Swift Action](https://github.com/AUTHOR-HANDLE/EXECUTABLE-NAME/workflows/Swift/badge.svg)](https://github.com/AUTHOR-HANDLE/EXECUTABLE-NAME/actions)
 [![Build Status](https://travis-ci.com/AUTHOR-HANDLE/EXECUTABLE-NAME.svg?branch=master)](https://travis-ci.com/AUTHOR-HANDLE/EXECUTABLE-NAME)
 [![Coverage](https://codecov.io/gh/AUTHOR-HANDLE/EXECUTABLE-NAME/branch/master/graph/badge.svg)](https://codecov.io/gh/AUTHOR-HANDLE/EXECUTABLE-NAME)
