@@ -42,7 +42,7 @@ There're more than one way to install `EXECUTABLE-NAME`.
 ### Using [Homebrew](https://brew.sh):
 
 ```sh
-$ brew install AUTHOR-HANDLE/EXECUTABLE-NAME/EXECUTABLE-NAME
+$ brew install AUTHOR-HANDLE/EXECUTABLE-NAME/formula
 ```
 
 ### Using [Mint](https://github.com/yonaskolb/mint):
