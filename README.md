@@ -26,7 +26,7 @@ $ EXECUTABLE-NAME [options]
 ```
 
 * `-h, --help`: Show `EXECUTABLE-NAME` help information.
-* `-v, --version`: Show `EXECUTABLE-NAME` version.
+* `--version`: Show `EXECUTABLE-NAME` version.
 
 ## 🛠 Compatibility
 

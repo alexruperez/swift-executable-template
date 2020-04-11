@@ -1,8 +1,7 @@
 import ArgumentParser
 
 struct EXECUTABLE-NAME: ParsableCommand {
-    @Flag(name: .short,
-          help: "Show SwiftExecutableTemplate version.")
+    @Flag(help: "Show SwiftExecutableTemplate version.")
     var version: Bool
 
     func run() throws {
