@@ -4,6 +4,7 @@ clean: true
 copyright: Copyright (c) 2020 AUTHOR-NAME
 github_file_prefix: https://github.com/AUTHOR-HANDLE/EXECUTABLE-NAME/blob/master
 github_url: https://github.com/AUTHOR-HANDLE/EXECUTABLE-NAME
+module: EXECUTABLE-NAME
 root_url: https://AUTHOR-HANDLE.github.io/EXECUTABLE-NAME
 sourcekitten_sourcefile:
   - docs/EXECUTABLE-NAME.json
