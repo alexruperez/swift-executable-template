@@ -2,7 +2,7 @@ import ArgumentParser
 
 /// EXECUTABLE-NAME
 public struct EXECUTABLE-NAME: ParsableCommand {
-    @Flag(help: "Show SwiftExecutableTemplate version.")
+    @Flag(help: "Show EXECUTABLE-NAME version.")
     var version: Bool
 
     /// Create EXECUTABLE-NAME.
